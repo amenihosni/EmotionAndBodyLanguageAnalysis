@@ -16,7 +16,7 @@ This pipeline combines **YOLO Pose**, **Facial Expression Analysis**, **Dataset 
 - Detects **human body landmarks**: 33 keypoints per frame (x, y, z, visibility)
 - Used to analyze **movement intensity, posture, and group interactions**
   
-![results (3)](https://github.com/user-attachments/assets/f9cc506c-ca48-4996-b0eb-8c939b28daf5)
+  ![results (2)](https://github.com/user-attachments/assets/2076885e-b470-4baa-9dee-b170b09fda37)
 
 
 ### <span style="color:#FF8C00;">🎭 Facial Expression Model – Emotion Detection</span>
@@ -24,8 +24,12 @@ This pipeline combines **YOLO Pose**, **Facial Expression Analysis**, **Dataset 
 - Enhances **accuracy of emotional analysis per person**
 - GIF explaining its purpose:
 
+  ![pose_face_analysis](https://github.com/user-attachments/assets/748dc8d7-fe0d-4711-bd70-a2128bacb66e)
   
-  ![results (2)](https://github.com/user-attachments/assets/2076885e-b470-4baa-9dee-b170b09fda37)
+Here is another example:  
+
+![pose_face_analysis (1)](https://github.com/user-attachments/assets/22ecae43-5f48-4632-a7f1-633731dba11d)
+
 
 
 ### <span style="color:#32CD32;">📊 Dataset Metrics – Valence & Arousal</span>
