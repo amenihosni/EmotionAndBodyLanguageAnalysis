@@ -21,7 +21,9 @@ This pipeline combines **YOLO Pose**, **Facial Expression Analysis**, **Dataset 
 ### <span style="color:#FF8C00;">🎭 Facial Expression Model – Emotion Detection</span>
 - Detects **emotional state from faces**: happy, sad, angry, surprised, etc.
 - Enhances **accuracy of emotional analysis per person**
-- GIF explaining its purpose:  
+- GIF explaining its purpose:
+  ![results (2)](https://github.com/user-attachments/assets/2076885e-b470-4baa-9dee-b170b09fda37)
+
 
 ### <span style="color:#32CD32;">📊 Dataset Metrics – Valence & Arousal</span>
 - Quantitative **valence (positive/negative)** and **arousal (energy)** scores
