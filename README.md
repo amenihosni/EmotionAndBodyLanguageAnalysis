@@ -1,92 +1,85 @@
 <h1 align="center" style="color:#FF5733;">🎬 Multi-Modal Video Emotion Analysis Pipeline 🧩</h1>
 
 <p align="center">
-<img src="https://img.icons8.com/color/96/video.png" width="50" /> 
-<img src="https://img.icons8.com/color/96/pose.png" width="50" /> 
-<img src="https://img.icons8.com/color/96/robot-emoji.png" width="50" />
-<img src="https://img.icons8.com/color/96/ai.png" width="50" />
+🧍‍♂️ 👩‍🦰 🎭 🤖
 </p>
-
-[![Python](https://img.shields.io/badge/python-3.10-blue)](https://www.python.org/)
 
 ---
 
-##  Overview
+## 🌈 Overview
 
 This pipeline combines **YOLO Pose**, **Facial Expression Analysis**, **Dataset Metrics**, and **LLM-based descriptions** to analyze emotions in videos.
 
-<img src="https://img.icons8.com/color/48/emotions.png" width="40" /> **Key Models Used**:
-- **YOLOv8 Pose** → Body landmarks (movement, posture, interactions)
-- **Facial Expression Model** → Detects emotions from faces
-- **Valence & Arousal Dataset Metrics** → Quantitative context
-- **LLM (TinyLlama)** → Generates textual descriptions
+🧩 **Key Models Used**:
+
+### <span style="color:#1E90FF;">🧍‍♂️ YOLOv8 Pose – Body Landmarks</span>
+- Detects **human body landmarks**: 33 keypoints per frame (x, y, z, visibility)
+- Used to analyze **movement intensity, posture, and group interactions**
+- GIF explaining its purpose:  
+![YOLO Pose GIF](https://media.giphy.com/media/l3vR85PnGsBwu1PFK/giphy.gif)
+
+### <span style="color:#FF8C00;">🎭 Facial Expression Model – Emotion Detection</span>
+- Detects **emotional state from faces**: happy, sad, angry, surprised, etc.
+- Enhances **accuracy of emotional analysis per person**
+- GIF explaining its purpose:  
+![Facial Expression GIF](https://media.giphy.com/media/xT1R9ONVt14nQ1pBBS/giphy.gif)
+
+### <span style="color:#32CD32;">📊 Dataset Metrics – Valence & Arousal</span>
+- Quantitative **valence (positive/negative)** and **arousal (energy)** scores
+- Provides **numerical context** for emotions
+- GIF explaining its purpose:  
+![Dataset Metrics GIF](https://media.giphy.com/media/26xBv6n8shPfjDXhO/giphy.gif)
+
+### <span style="color:#FF1493;">🤖 LLM (TinyLlama) – Textual Description</span>
+- Converts **pose, facial expressions, and metrics** into **natural-language descriptions**
+- Generates **concise emotional narratives**
+- GIF explaining its purpose:  
+![LLM GIF](https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif)
 
 ---
 
 ## 📌 Pipeline Steps
 
 ### <span style="color:#1E90FF;">1️⃣ Explore Dataset 🔍</span>
-<img src="https://img.icons8.com/color/48/folder-invoices.png" width="25"/>
-- Inspect `videos/` and `rating_averaged/`  
-- Check video resolution, FPS, duration  
-- Preview valence/arousal metrics  
+- Preview video & ratings  
+- Check resolution, FPS, missing values
 
 ### <span style="color:#FF8C00;">2️⃣ Match Videos with Ratings 🔗</span>
-<img src="https://img.icons8.com/color/48/link.png" width="25"/>
-- Match videos with rating files  
-- Store video-rating pairs  
+- Match video files with rating CSVs  
+- Store video–rating pairs
 
-### <span style="color:#32CD32;">3️⃣ Extract Pose & Facial Features 🧍‍♂️😃</span>
-<img src="https://img.icons8.com/color/48/body.png" width="25"/>
-- **YOLOv8 Pose**: Body keypoints  
-- **Facial Expression Model**: Detect emotions  
-- Sample frames, merge with dataset metrics  
-- Save features as CSVs  
+### <span style="color:#32CD32;">3️⃣ Extract Pose & Facial Features 🧍‍♂️🎭</span>
+- YOLO Pose → body landmarks  
+- Facial Expression → detect emotions  
+- Merge with dataset metrics → save CSV
 
 ### <span style="color:#FF1493;">4️⃣ Combine All Video Features 🔄</span>
-<img src="https://img.icons8.com/color/48/merge.png" width="25"/>
 - Merge per-video CSVs  
-- Add video IDs  
+- Add video IDs
 
 ### <span style="color:#00CED1;">5️⃣ Normalize and Label Emotions ⚖️</span>
-<img src="https://img.icons8.com/color/48/scale.png" width="25"/>
-- Normalize valence & arousal  
-- Map to emotion categories:  
-  - 😃 Happy/Excited  
-  - 😌 Calm/Content  
-  - 😠😨 Angry/Fearful  
-  - 😔😴 Sad/Tired  
+- Normalize valence/arousal 0–1  
+- Map to categories (😃😌😠😔)
 
 ### <span style="color:#8A2BE2;">6️⃣ Summarize Video Behavior 📊</span>
-<img src="https://img.icons8.com/color/48/chart.png" width="25"/>
 - Average valence, arousal, movement intensity  
-- Quantitative summary for LLM  
+- Prepare for LLM
 
-### <span style="color:#FF4500;">7️⃣ Generate Natural-Language Descriptions 📝</span>
-<img src="https://img.icons8.com/color/48/text.png" width="25"/>
-- LLM input: pose, facial expressions, metrics  
-- Output: concise text per frame/video  
+### <span style="color:#FF4500;">7️⃣ Generate LLM Descriptions 📝</span>
+- Input: pose + facial + metrics  
+- Output: natural-language emotion description
 
 ### <span style="color:#228B22;">8️⃣ Multi-Frame Emotional Storytelling 🎬</span>
-<img src="https://img.icons8.com/color/48/story.png" width="25"/>
-- Sample 5–8 frames per video  
-- Show pose, facial, metrics, LLM description  
-- Capture temporal trends  
+- Sample frames → display landmarks, facial emotion, metrics, LLM description
 
 ### <span style="color:#DAA520;">9️⃣ Full Video Narrative 🧩</span>
-<img src="https://img.icons8.com/color/48/book.png" width="25"/>
-- Combine frame-level descriptions  
-- Example: *"The person starts tense and alert, gradually becomes calmer, ends relaxed and content."*  
+- Combine frame-level descriptions into **smooth story**  
 
 ### <span style="color:#FF6347;">🔟 Visualization 🖼️</span>
-<img src="https://img.icons8.com/color/48/picture.png" width="25"/>
-- Annotated frames: pose + facial + descriptions  
-- Include full narrative as figure text  
+- Annotated frames + full narrative
 
 ### <span style="color:#00BFFF;">1️⃣1️⃣ Save & Deploy Results 💾</span>
-<img src="https://img.icons8.com/color/48/save-as.png" width="25"/>
-- Save CSVs / Pickle files / Plots  
-- Ready for dashboards & analysis  
+- Save CSVs / Pickle files / Plots
 
 ---
 
