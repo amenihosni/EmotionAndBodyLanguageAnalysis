@@ -8,11 +8,10 @@
 </p>
 
 [![Python](https://img.shields.io/badge/python-3.10-blue)](https://www.python.org/)
-[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 ---
 
-## 🌈 Overview
+##  Overview
 
 This pipeline combines **YOLO Pose**, **Facial Expression Analysis**, **Dataset Metrics**, and **LLM-based descriptions** to analyze emotions in videos.
 
