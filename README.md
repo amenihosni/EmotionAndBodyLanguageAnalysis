@@ -15,6 +15,7 @@ This pipeline combines **YOLO Pose**, **Facial Expression Analysis**, **Dataset 
 ### <span style="color:#1E90FF;">🧍‍♂️ YOLOv8 Pose – Body Landmarks</span>
 - Detects **human body landmarks**: 33 keypoints per frame (x, y, z, visibility)
 - Used to analyze **movement intensity, posture, and group interactions**
+  
 ![results (3)](https://github.com/user-attachments/assets/f9cc506c-ca48-4996-b0eb-8c939b28daf5)
 
 
@@ -22,6 +23,8 @@ This pipeline combines **YOLO Pose**, **Facial Expression Analysis**, **Dataset 
 - Detects **emotional state from faces**: happy, sad, angry, surprised, etc.
 - Enhances **accuracy of emotional analysis per person**
 - GIF explaining its purpose:
+
+  
   ![results (2)](https://github.com/user-attachments/assets/2076885e-b470-4baa-9dee-b170b09fda37)
 
 
