@@ -15,26 +15,25 @@ This pipeline combines **YOLO Pose**, **Facial Expression Analysis**, **Dataset 
 ### <span style="color:#1E90FF;">🧍‍♂️ YOLOv8 Pose – Body Landmarks</span>
 - Detects **human body landmarks**: 33 keypoints per frame (x, y, z, visibility)
 - Used to analyze **movement intensity, posture, and group interactions**
-- GIF explaining its purpose:  
-![YOLO Pose GIF](https://media.giphy.com/media/l3vR85PnGsBwu1PFK/giphy.gif)
+![results (3)](https://github.com/user-attachments/assets/f9cc506c-ca48-4996-b0eb-8c939b28daf5)
+
 
 ### <span style="color:#FF8C00;">🎭 Facial Expression Model – Emotion Detection</span>
 - Detects **emotional state from faces**: happy, sad, angry, surprised, etc.
 - Enhances **accuracy of emotional analysis per person**
 - GIF explaining its purpose:  
-![Facial Expression GIF](https://media.giphy.com/media/xT1R9ONVt14nQ1pBBS/giphy.gif)
 
 ### <span style="color:#32CD32;">📊 Dataset Metrics – Valence & Arousal</span>
 - Quantitative **valence (positive/negative)** and **arousal (energy)** scores
 - Provides **numerical context** for emotions
-- GIF explaining its purpose:  
-![Dataset Metrics GIF](https://media.giphy.com/media/26xBv6n8shPfjDXhO/giphy.gif)
+
 
 ### <span style="color:#FF1493;">🤖 LLM (TinyLlama) – Textual Description</span>
 - Converts **pose, facial expressions, and metrics** into **natural-language descriptions**
 - Generates **concise emotional narratives**
-- GIF explaining its purpose:  
-![LLM GIF](https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif)
+![LLM GIF]([https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif](https://cdn-thumbnails.huggingface.co/social-thumbnails/spaces/aygalic/tiny-llama.png))
+final Results:
+<img width="2005" height="960" alt="télécharger (3)" src="https://github.com/user-attachments/assets/9f650549-7e0d-4f7d-a52c-3e0740068b11" />
 
 ---
 
