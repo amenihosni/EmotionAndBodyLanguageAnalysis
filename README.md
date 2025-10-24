@@ -6,7 +6,7 @@
 
 ---
 
-## 🌈 Overview
+## Overview
 
 This pipeline combines **YOLO Pose**, **Facial Expression Analysis**, **Dataset Metrics**, and **LLM-based descriptions** to analyze emotions in videos.
 
