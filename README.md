@@ -19,7 +19,7 @@ This pipeline combines **YOLO Pose**, **Facial Expression Analysis**, **Dataset 
   ![results (2)](https://github.com/user-attachments/assets/2076885e-b470-4baa-9dee-b170b09fda37)
 
 
-### <span style="color:#FF8C00;">🎭 Facial Expression Model – Emotion Detection</span>
+### <span style="color:#FF8C00;">🎭 Facial Expression Model (trpakov/vit-face-expression Model) – Emotion Detection</span>
 - Detects **emotional state from faces**: happy, sad, angry, surprised, etc.
 - Enhances **accuracy of emotional analysis per person**
 - GIF explaining its purpose:
@@ -37,7 +37,7 @@ Here is another example:
 - Provides **numerical context** for emotions
 
 
-### <span style="color:#FF1493;">🤖 LLM (TinyLlama) – Textual Description</span>
+### <span style="color:#FF1493;">🤖 LLM (TinyLlama) TinyLlama-1.1B-Chat-v1.0 – Textual Description</span>
 - Converts **pose, facial expressions, and metrics** into **natural-language descriptions**
 - Generates **concise emotional narratives**
 ![LLM GIF]([https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif](https://cdn-thumbnails.huggingface.co/social-thumbnails/spaces/aygalic/tiny-llama.png))
