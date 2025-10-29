@@ -1,0 +1,63 @@
+{
+  "video_name": "df6ed3a6-9351-49e9-ac31-2499189b8d55_8724513-uhd_4096_2160_25fps.mp4",
+  "emotions": [
+    {
+      "name": "CONFIDENCE LEVEL",
+      "confidence": 78,
+      "level": "high",
+      "icon": "fas fa-user-shield"
+    },
+    {
+      "name": "ENGAGEMENT",
+      "confidence": 82,
+      "level": "high",
+      "icon": "fas fa-handshake"
+    },
+    {
+      "name": "POSITIVE AFFECT",
+      "confidence": 65,
+      "level": "medium",
+      "icon": "fas fa-smile"
+    },
+    {
+      "name": "FOCUS LEVEL",
+      "confidence": 75,
+      "level": "high",
+      "icon": "fas fa-eye"
+    }
+  ],
+  "body_language": [
+    {
+      "name": "EYE CONTACT",
+      "confidence": 80,
+      "level": "high",
+      "icon": "fas fa-eye"
+    },
+    {
+      "name": "POSTURE",
+      "confidence": 72,
+      "level": "high",
+      "icon": "fas fa-user"
+    },
+    {
+      "name": "GESTURES",
+      "confidence": 65,
+      "level": "medium",
+      "icon": "fas fa-hand-paper"
+    }
+  ],
+  "insights": [
+    "Mock analysis: Real AI processing unavailable.",
+    "Please check if video_analyzer_light.pkl is properly configured.",
+    "Real analysis requires YOLO pose detection and facial expression models.",
+    "Falling back to demonstration data."
+  ],
+  "highlights": {
+    "confidence": 78,
+    "engagement": 82,
+    "nervousness": 34
+  },
+  "comprehensive_description": "MOCK ANALYSIS: This is demonstration data. Real video analysis is currently unavailable. Please check server logs for details.",
+  "analysis_id": "df6ed3a6-9351-49e9-ac31-2499189b8d55",
+  "analysis_type": "MOCK_ANALYSIS"
+}

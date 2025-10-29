@@ -1,0 +1,100 @@
+{
+  "video_name": "b96067f9-4787-4a5d-a237-e3ae42251eac_0.mp4",
+  "emotions": [
+    {
+      "name": "ENGAGEMENT LEVEL",
+      "confidence": 50,
+      "level": "medium",
+      "icon": "fas fa-handshake",
+      "description": "Shows moderate engagement"
+    },
+    {
+      "name": "EMOTIONAL EXPRESSIVITY",
+      "confidence": 50,
+      "level": "medium",
+      "icon": "fas fa-comments",
+      "description": "Moderately expressive expression"
+    },
+    {
+      "name": "CONFIDENCE LEVEL",
+      "confidence": 50,
+      "level": "medium",
+      "icon": "fas fa-user-shield",
+      "description": "Demonstrates moderate confidence"
+    }
+  ],
+  "body_language": [
+    {
+      "name": "MOVEMENT INTENSITY",
+      "confidence": 50,
+      "level": "medium",
+      "icon": "fas fa-running",
+      "description": "Moderate physical movement"
+    },
+    {
+      "name": "BODY ENGAGEMENT",
+      "confidence": 40,
+      "level": "low",
+      "icon": "fas fa-users",
+      "description": "Body language shows low engagement"
+    },
+    {
+      "name": "BODY OPENNESS",
+      "confidence": 70,
+      "level": "medium",
+      "icon": "fas fa-arms",
+      "description": "Moderately open body posture"
+    },
+    {
+      "name": "POSTURE STABILITY",
+      "confidence": 83,
+      "level": "high",
+      "icon": "fas fa-user",
+      "description": "Posture is stable"
+    },
+    {
+      "name": "ACTIVITY LEVEL",
+      "confidence": 60,
+      "level": "medium",
+      "icon": "fas fa-tachometer-alt",
+      "description": "Moderate activity level"
+    }
+  ],
+  "insights": [
+    "Lower engagement observed - may indicate distraction or discomfort.",
+    "Balanced movement indicates comfortable communication style.",
+    "Generally good posture with minor variations.",
+    "Analysis of 8 sample frames detected an average of 1."
+  ],
+  "highlights": {
+    "confidence": 50,
+    "engagement": 40,
+    "nervousness": 18
+  },
+  "comprehensive_description": "Analysis of 8 sample frames detected an average of 1.5 people per frame. Total of 12 face detections throughout the video. Primary emotional states: engaged (50%), neutral (50%). The subject demonstrates good presence and engagement. Overall analysis suggests professional demeanor with appropriate behavioral patterns.",
+  "timeline_analysis": [
+    "Start (Frame 0): 2 person(s), primarily engaged",
+    "Early (Frame 216): 2 person(s), primarily engaged",
+    "Early-Middle (Frame 432): 2 person(s), primarily engaged",
+    "Middle (Frame 649): 2 person(s), primarily engaged",
+    "Middle-Late (Frame 865): 2 person(s), primarily engaged",
+    "Late (Frame 1082): 1 person(s), primarily neutral",
+    "End-Approach (Frame 1298): 0 person(s)",
+    "End (Frame 1442): 1 person(s), primarily engaged"
+  ],
+  "analysis_id": "b96067f9-4787-4a5d-a237-e3ae42251eac",
+  "analysis_type": "REAL_ANALYSIS",
+  "raw_metrics": {
+    "emotion_metrics": {
+      "engaged": 50.0,
+      "neutral": 50.0
+    },
+    "body_metrics_summary": {
+      "movement_intensity": "5.00",
+      "engagement_scores": "0.40",
+      "activity_levels": "3.00",
+      "openness_scores": "0.70",
+      "posture_asymmetry": "17.50"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "video_name": "9e518eca-8041-4f1b-b228-9e72ed14476b_0.mp4",
+  "emotions": [
+    {
+      "name": "ENGAGEMENT",
+      "confidence": 50,
+      "level": "medium",
+      "icon": "fas fa-handshake"
+    },
+    {
+      "name": "EMOTIONAL STABILITY",
+      "confidence": 50,
+      "level": "medium",
+      "icon": "fas fa-brain"
+    }
+  ],
+  "body_language": [
+    {
+      "name": "MOVEMENT INTENSITY",
+      "confidence": 100,
+      "level": "high",
+      "icon": "fas fa-running"
+    },
+    {
+      "name": "ENGAGEMENT LEVEL",
+      "confidence": 40,
+      "level": "low",
+      "icon": "fas fa-handshake"
+    },
+    {
+      "name": "ACTIVITY LEVEL",
+      "confidence": 300,
+      "level": "high",
+      "icon": "fas fa-tachometer-alt"
+    },
+    {
+      "name": "BODY OPENNESS",
+      "confidence": 70,
+      "level": "medium",
+      "icon": "fas fa-arms"
+    },
+    {
+      "name": "POSTURE STABILITY",
+      "confidence": 47,
+      "level": "medium",
+      "icon": "fas fa-user"
+    }
+  ],
+  "insights": [
+    "Analysis of 8 sample frames detected an average of 1.",
+    "5 people per frame.",
+    "Total of 12 face detections throughout the video.",
+    "Primary emotional states: engaged (50%), neutral (50%).",
+    "Detected average of 1.5 people across 8 frames."
+  ],
+  "highlights": {
+    "confidence": 100,
+    "engagement": 323,
+    "nervousness": 0
+  },
+  "comprehensive_description": "Analysis of 8 sample frames detected an average of 1.5 people per frame. Total of 12 face detections throughout the video. Primary emotional states: engaged (50%), neutral (50%). The subject demonstrates good presence and engagement. Overall analysis suggests professional demeanor with appropriate behavioral patterns.",
+  "timeline_analysis": [
+    "Start (Frame 0): 2 person(s), primarily engaged",
+    "Early (Frame 216): 2 person(s), primarily engaged",
+    "Early-Middle (Frame 432): 2 person(s), primarily engaged",
+    "Middle (Frame 649): 2 person(s), primarily engaged",
+    "Middle-Late (Frame 865): 2 person(s), primarily neutral",
+    "Late (Frame 1082): 1 person(s), primarily neutral",
+    "End-Approach (Frame 1298): 0 person(s)",
+    "End (Frame 1442): 1 person(s), primarily engaged"
+  ],
+  "analysis_id": "9e518eca-8041-4f1b-b228-9e72ed14476b",
+  "analysis_type": "REAL_ANALYSIS"
+}

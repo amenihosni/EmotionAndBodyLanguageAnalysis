@@ -1,0 +1,68 @@
+{
+  "video_name": "9c35cfe3-954f-42ca-86ed-061c6446f255_8724513-uhd_4096_2160_25fps.mp4",
+  "emotions": [
+    {
+      "name": "ENGAGEMENT",
+      "confidence": 100,
+      "level": "high",
+      "icon": "fas fa-handshake"
+    }
+  ],
+  "body_language": [
+    {
+      "name": "MOVEMENT INTENSITY",
+      "confidence": 100,
+      "level": "high",
+      "icon": "fas fa-running"
+    },
+    {
+      "name": "ENGAGEMENT LEVEL",
+      "confidence": 52,
+      "level": "medium",
+      "icon": "fas fa-handshake"
+    },
+    {
+      "name": "ACTIVITY LEVEL",
+      "confidence": 300,
+      "level": "high",
+      "icon": "fas fa-tachometer-alt"
+    },
+    {
+      "name": "BODY OPENNESS",
+      "confidence": 76,
+      "level": "high",
+      "icon": "fas fa-arms"
+    },
+    {
+      "name": "POSTURE STABILITY",
+      "confidence": 40,
+      "level": "low",
+      "icon": "fas fa-user"
+    }
+  ],
+  "insights": [
+    "Analysis of 8 sample frames detected an average of 1.",
+    "0 people per frame.",
+    "Total of 8 face detections throughout the video.",
+    "Primary emotional states: engaged (100%).",
+    "Detected average of 1.0 people across 8 frames."
+  ],
+  "highlights": {
+    "confidence": 100,
+    "engagement": 422,
+    "nervousness": 0
+  },
+  "comprehensive_description": "Analysis of 8 sample frames detected an average of 1.0 people per frame. Total of 8 face detections throughout the video. Primary emotional states: engaged (100%). The subject demonstrates good presence and engagement. Overall analysis suggests professional demeanor with appropriate behavioral patterns.",
+  "timeline_analysis": [
+    "Start (Frame 0): 1 person(s), primarily engaged",
+    "Early (Frame 107): 1 person(s), primarily engaged",
+    "Early-Middle (Frame 215): 1 person(s), primarily engaged",
+    "Middle (Frame 322): 1 person(s), primarily engaged",
+    "Middle-Late (Frame 430): 1 person(s), primarily engaged",
+    "Late (Frame 537): 1 person(s), primarily engaged",
+    "End-Approach (Frame 645): 1 person(s), primarily engaged",
+    "End (Frame 716): 1 person(s), primarily engaged"
+  ],
+  "analysis_id": "9c35cfe3-954f-42ca-86ed-061c6446f255",
+  "analysis_type": "REAL_ANALYSIS"
+}

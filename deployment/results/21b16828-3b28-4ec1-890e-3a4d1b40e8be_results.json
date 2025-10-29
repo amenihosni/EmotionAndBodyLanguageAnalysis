@@ -1,0 +1,174 @@
+{
+  "video_path": "uploads\\21b16828-3b28-4ec1-890e-3a4d1b40e8be_8724513-uhd_4096_2160_25fps.mp4",
+  "video_name": "21b16828-3b28-4ec1-890e-3a4d1b40e8be_8724513-uhd_4096_2160_25fps.mp4",
+  "frame_indices": [
+    0,
+    107,
+    215,
+    322,
+    430,
+    537,
+    645,
+    716
+  ],
+  "analysis_results": [
+    {
+      "frame_index": 0,
+      "people_count": 1,
+      "faces_detected": 1,
+      "brightness": 134.33612075617285,
+      "contrast": 68.15087989056983,
+      "emotions": [
+        "engaged"
+      ]
+    },
+    {
+      "frame_index": 1,
+      "people_count": 1,
+      "faces_detected": 1,
+      "brightness": 134.75343171296296,
+      "contrast": 67.89169738114366,
+      "emotions": [
+        "engaged"
+      ]
+    },
+    {
+      "frame_index": 2,
+      "people_count": 1,
+      "faces_detected": 1,
+      "brightness": 134.6847299382716,
+      "contrast": 67.96466480375625,
+      "emotions": [
+        "engaged"
+      ]
+    },
+    {
+      "frame_index": 3,
+      "people_count": 1,
+      "faces_detected": 1,
+      "brightness": 134.26538966049384,
+      "contrast": 68.20135916829061,
+      "emotions": [
+        "engaged"
+      ]
+    },
+    {
+      "frame_index": 4,
+      "people_count": 1,
+      "faces_detected": 1,
+      "brightness": 134.02392515432098,
+      "contrast": 68.24325926076095,
+      "emotions": [
+        "engaged"
+      ]
+    },
+    {
+      "frame_index": 5,
+      "people_count": 1,
+      "faces_detected": 1,
+      "brightness": 135.0322924382716,
+      "contrast": 67.77283798898455,
+      "emotions": [
+        "engaged"
+      ]
+    },
+    {
+      "frame_index": 6,
+      "people_count": 1,
+      "faces_detected": 1,
+      "brightness": 134.51209953703705,
+      "contrast": 67.98542370704101,
+      "emotions": [
+        "engaged"
+      ]
+    },
+    {
+      "frame_index": 7,
+      "people_count": 1,
+      "faces_detected": 1,
+      "brightness": 134.55376658950618,
+      "contrast": 68.06329664853295,
+      "emotions": [
+        "engaged"
+      ]
+    }
+  ],
+  "comprehensive_description": "Analysis of 8 sample frames detected an average of 1.0 people per frame. Total of 8 face detections throughout the video. Primary emotional states: engaged (100%). The subject demonstrates good presence and engagement. Overall analysis suggests professional demeanor with appropriate behavioral patterns.",
+  "emotion_metrics": {
+    "engaged": 100.0
+  },
+  "all_emotions": [
+    "engaged",
+    "engaged",
+    "engaged",
+    "engaged",
+    "engaged",
+    "engaged",
+    "engaged",
+    "engaged"
+  ],
+  "body_language_metrics": {
+    "movement_intensity": [
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0
+    ],
+    "engagement_scores": [
+      0.5275302724446261,
+      0.5275302724446261,
+      0.5275302724446261,
+      0.5275302724446261,
+      0.5275302724446261,
+      0.5275302724446261,
+      0.5275302724446261,
+      0.5275302724446261
+    ],
+    "activity_levels": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "openness_scores": [
+      0.763765136222313,
+      0.763765136222313,
+      0.763765136222313,
+      0.763765136222313,
+      0.763765136222313,
+      0.763765136222313,
+      0.763765136222313,
+      0.763765136222313
+    ],
+    "posture_asymmetry": [
+      20.0,
+      20.0,
+      20.0,
+      20.0,
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ]
+  },
+  "timeline_analysis": [
+    "Start (Frame 0): 1 person(s), primarily engaged",
+    "Early (Frame 107): 1 person(s), primarily engaged",
+    "Early-Middle (Frame 215): 1 person(s), primarily engaged",
+    "Middle (Frame 322): 1 person(s), primarily engaged",
+    "Middle-Late (Frame 430): 1 person(s), primarily engaged",
+    "Late (Frame 537): 1 person(s), primarily engaged",
+    "End-Approach (Frame 645): 1 person(s), primarily engaged",
+    "End (Frame 716): 1 person(s), primarily engaged"
+  ],
+  "analysis_id": "21b16828-3b28-4ec1-890e-3a4d1b40e8be",
+  "analysis_type": "REAL_ANALYSIS"
+}
